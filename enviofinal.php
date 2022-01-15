@@ -112,10 +112,10 @@ $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->SMTPKeepAlive = true; //SMTP connection will not close after each email sent, reduces SMTP overhead
 $mail->Port = 25;
-$mail->Username = 'joaoecarol39@gmail.com';
-$mail->Password = 'pnhfhghyrhxrqrax';
-$mail->setFrom('joaoecarol39@gmail.com', 'List manager');
-$mail->addReplyTo('joaoecarol39@gmail.com', 'List manager');
+$mail->Username = 'your gmail';
+$mail->Password = 'your pass';
+$mail->setFrom('your gmail', 'List manager');
+$mail->addReplyTo('your gmail', 'List manager');
 
 $mail->Subject = 'PHPMailer Simple database mailing list test';
 
